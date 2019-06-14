@@ -6,8 +6,6 @@ matrix =pd.read_csv('RNASeq expresion.csv', index_col=0)
 fh = open('PCC AND PVALUE.txt', 'w')
             
 l = matrix.values.tolist()
-
-
 i=0
 
 while i<=44616:
