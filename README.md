@@ -1,3 +1,2 @@
 # miPs
-Coexpression 
-This is corexpression generator
+Coexpression analysis of microProteins (miPs) and their target was performed based on Pearson correlation coefficient analysis (PCC). RNASeq dataset from rice anatomical samples were used as source for coexpression prediction. The RNASeq normalized expression count table for miPs and their target is provided as csv files. The python script 'pcc.py' was used to estimate the PCC from these RNASeq datasets.
